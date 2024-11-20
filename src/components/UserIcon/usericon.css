@@ -1,0 +1,23 @@
+.user-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .user-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-icon span {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,116 @@
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    margin-top: 5px;
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    background: #e0f7fa;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #00796b;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .card-footer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  /* .card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  } */
+  .card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative; /* Ensures child absolute elements are positioned relative to this */
+  }
+  
+  /* .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  } */
+  
+  .card-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 10px 0;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-tag {
+    font-size: 12px;
+    color: #555;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 2px 6px;
+  }
+/*   
+  .user-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007aff;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-transform: uppercase;
+  } */
+  .user-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #276404;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    font-size: 9px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-transform: uppercase;
+    position: absolute; /* Positioned relative to the parent */
+    top: 8px; /* Distance from the top */
+    right: 8px; /* Distance from the right */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for visibility */
+  }
+  
